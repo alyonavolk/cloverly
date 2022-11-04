@@ -1,0 +1,40 @@
+@import '../../style/variables.scss';
+
+.header{
+    background-color: $main-color;
+    padding: 0 175px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    &__left{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+
+    &__link{
+        ul {
+            display: flex;
+            width: 400px;
+            justify-content: space-between;
+        }
+    }
+    &__registr{
+        align-items: center;
+        display: flex;
+        gap: 30px;
+    }
+    li, p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        :hover{
+            color: $dark-color;
+            cursor: pointer;
+        }
+    }
+}

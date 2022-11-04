@@ -1,0 +1,15 @@
+@import '../../style/variables.scss';
+
+.header-info{
+    background-color: $main-color;
+    padding-left: 175px;
+    color: $white-text;
+    .header-info__block{
+        display: flex;
+        align-items: center;
+    }
+    .header-info__text{
+        max-width: 550px;
+        padding-top: 150px;
+    }
+}

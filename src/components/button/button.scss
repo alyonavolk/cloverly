@@ -1,0 +1,18 @@
+@import '../../style/variables.scss';
+
+.btn{
+    border: none;
+    padding: 10px 35px;
+    background: #F4FBF9;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: $dark-color;
+    :hover{
+        color: $main-color;
+    }
+}
