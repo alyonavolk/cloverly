@@ -1,8 +1,8 @@
 @import '../../style/variables.scss';
 
 .header{
-    background-color: $main-color;
-    padding: 0 175px;
+    max-width: 1050px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     height: 70px;

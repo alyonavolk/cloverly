@@ -1,9 +1,9 @@
 @import '../../style/variables.scss';
 
 .header-info{
-    background-color: $main-color;
-    padding-left: 175px;
     color: $white-text;
+    max-width: 1205px;
+    margin-left: auto;
     .header-info__block{
         display: flex;
         align-items: center;

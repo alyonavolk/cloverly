@@ -21,7 +21,7 @@ const Header = () => {
             </div>
             <div className='header__registr'>
                 <p><a>Login</a></p>
-                <Button nameBtn='Get API Keys' />
+                <Button className='btn btn__header'>Get API Keys</Button>
             </div>
         </div>
     )

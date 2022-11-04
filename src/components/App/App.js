@@ -5,8 +5,10 @@ import HeaderInfo from '../headerInfo/headerInfo';
 function App() {
   return (
     <div className="app">
-      <Header />
-      <HeaderInfo />
+      <div className='app__header'>
+        <Header />
+        <HeaderInfo />
+      </div>
     </div>
   );
 }

@@ -1,5 +1,7 @@
 @import '../../style/variables.scss';
 
 .app{
-    
+    &__header{
+        background-color: $main-color;
+    }
 }

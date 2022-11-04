@@ -3,16 +3,18 @@
 .btn{
     border: none;
     padding: 10px 35px;
-    background: #F4FBF9;
     border-radius: 50px;
     font-family: 'Roboto';
     font-style: normal;
+    text-align: center;
     font-weight: 400;
     font-size: 15px;
     line-height: 16px;
-    text-align: center;
-    color: $dark-color;
-    :hover{
-        color: $main-color;
+    &__header{
+        color: $dark-color;
+        background: #F4FBF9;
+        :hover{
+            color: $main-color;
+        }
     }
 }
