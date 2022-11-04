@@ -1,0 +1,11 @@
+@import '../../../style/variables.scss';
+
+.title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    color: $white-text;
+    padding: 10px 0;
+}

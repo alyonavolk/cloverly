@@ -1,0 +1,21 @@
+@import '../../../style/variables.scss';
+
+.sub-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: $main-color;
+    &__link{
+        max-width: max-content;
+        font-size: 15px;
+        line-height: 15px;
+        text-align: start;
+        color: $white-text;
+        padding: 9px 17px;
+        background: rgba(255, 255, 255, 0.25);
+        border-radius: 33px;
+    }
+}

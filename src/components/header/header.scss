@@ -1,13 +1,16 @@
 @import '../../style/variables.scss';
 
 .header{
+    &__container{
+        background-color: $main-color;
+    }
     max-width: 1050px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     height: 70px;
     align-items: center;
-    &__left{
+    &_left{
         display: flex;
         gap: 50px;
         align-items: center;
@@ -20,7 +23,7 @@
             justify-content: space-between;
         }
     }
-    &__registr{
+    &_registr{
         align-items: center;
         display: flex;
         gap: 30px;
@@ -32,9 +35,12 @@
         font-size: 15px;
         line-height: 18px;
         color: #FFFFFF;
-        :hover{
+        &:hover{
             color: $dark-color;
             cursor: pointer;
+        }
+        &:active{
+            color: $dark-color;
         }
     }
 }

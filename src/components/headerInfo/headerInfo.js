@@ -1,6 +1,18 @@
-import Header from '../header/header';
 import './headerInfo.scss';
-import Button from '../button/button';
+import Button from '../UI/button/button';
+import Title from '../UI/title/title';
+import SubTitle from '../UI/subTitle/subTitle';
+import Description from '../UI/description/description';
+// import img1 from '../../resources/img/helping_code.png';
+// import img2 from '../../resources/img/helping_score.png';
+// import img3 from '../../resources/img/helping_tab.png';
+// import img4 from '../../resources/img/helping_tel.png';
+import comp1 from '../../resources/img/looker.png';
+import comp2 from '../../resources/img/shopify.png';
+import comp3 from '../../resources/img/sustain.png';
+import comp4 from '../../resources/img/techCrunch.png';
+import comp5 from '../../resources/img/bigCommerce.png';
+
 
 const HeaderInfo = () => {
 
@@ -8,31 +20,37 @@ const HeaderInfo = () => {
         <div className='header-info'>
             <div className='header-info__block'>
                 <div className='header-info__text'>
-                    <p className=''>
+                    <SubTitle mix='link'>
                         Sustainability on Demand
-                    </p>
-                    <h1 className='header-info__title'>
+                    </SubTitle>
+                    <Title>
                         Helping the World Go Carbon Neutral
-                    </h1>
-                    <p className='header-info__descr'>
+                    </Title>
+                    <Description>
                         Our Sustainability-as-a-Service platform calculates and purchases carbon offsets to neutralize the environmental impact of everyday activities like ecommerce deliveries, ridesharing, flights, and more.
-                    </p>
+                    </Description>
                     <div className='header-info__btn'>
-                        <Button nameBtn='Get Started' />
-                        <Button nameBtn="Let's Talk" />
+                        <Button mix='white'>Get Started</Button>
+                        <Button mix='black'>Let's Talk</Button>
                     </div>
                 </div>
-                <div className='header-info__img'>
+                {/* <div className='header-info__img'>
                     <div className='header-info__img_left'>
-
+                        <img src={img1} alt='' />
+                        <img src={img2} alt='' />
                     </div>
                     <div className='header-info__img_right'>
-                        
+                        <img src={img3} alt='' />
+                        <img src={img4} alt='' />
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className='header-info__comp'>
-
+                <div><img src={comp1} alt='' /></div>
+                <div><img src={comp2} alt='' /></div>
+                <div><img src={comp3} alt='' /></div>
+                <div><img src={comp4} alt='' /></div>
+                <div><img src={comp5} alt='' /></div>
             </div>
         </div>
     )

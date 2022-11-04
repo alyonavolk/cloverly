@@ -1,0 +1,40 @@
+@import '../../../style/variables.scss';
+
+.button{
+    border: none;
+    padding: 10px 35px;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    background-color: $white-text;
+    cursor: pointer;
+    &__beige{
+        color: $dark-color;
+        background: $button-bg;
+        &:hover{
+            color: $main-color;
+        }
+    }
+    &__white{
+        padding: 15px 90px;
+        color: $text-button-wh;
+        &:hover{
+            color: $white-text;
+            background-color: $button-bl;
+        }
+    }
+    &__black{
+        background-color: $button-bl;
+        color: $white-text;
+        padding: 15px 90px;
+        &:hover{
+            background-color: $white-text;
+            color: $text-button-wh;
+        }
+    }
+
+}
