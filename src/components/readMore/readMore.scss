@@ -1,0 +1,14 @@
+@import '../../style/variables.scss';
+
+.readMore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    padding: $padding 0;
+    margin: 0 auto;
+    &__button{
+        padding-top: 60px;
+    }
+}

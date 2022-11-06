@@ -1,0 +1,19 @@
+@import '../../../style/variables.scss';
+
+.itemUs{
+    display: flex;
+    flex-wrap: wrap;
+    img {
+        margin-right: 30px;
+    }
+    div {
+        max-width: 250px;
+        p {
+            padding-top: 10px;
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+@import '../../style/variables.scss';
+
+.footer{
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $white-text;
+    &__logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 50px 0;
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+        }
+    }
+    &__link{
+        border-top: 1px solid #275668;
+        border-bottom: 1px solid #275668;
+        padding: 45px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        &_title{
+            font-size: 13px;
+            line-height: 17px;
+            letter-spacing: 2.6px;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.75);
+            padding-bottom: 40px;
+        }
+        ul{
+            width: 170px;
+            li{
+                padding-bottom: 20px;
+                cursor: pointer;
+                &:hover{
+                    color: $main-color;
+                }
+            }
+            &:last-child{
+                padding-top: 35px;
+            }
+        }
+    }
+    &__date{
+        padding: 50px 0;
+    }
+}

@@ -60,6 +60,7 @@
         border: 1px solid $main-color;
         padding: 15px 0;
         min-width: 250px;
+        background-color: transparent;
         &:hover{
             background-color: $main-color;
             color: $white-text;
@@ -72,6 +73,34 @@
         &:hover{
             background-color: $main-color;
             color: $white-text;
+        }
+    }
+    &__green-wh{
+        padding: 15px 0;
+        min-width: 250px;
+        color: $white-text;
+        background-color: $main-color;
+        &:hover{
+            color: $text-button-wh;
+            background-color: $white-text;
+        }
+    }
+    &__white-gr{
+        padding: 15px 0;
+        min-width: 250px;
+        color: $text-button-wh;
+        &:hover{
+            color: $white-text;
+            background-color: $main-color;
+        }
+    }
+    &__footer{
+        min-width: 250px;
+        color: $white-text;
+        background-color: $main-color;
+        &:hover{
+            color: $text-button-wh;
+            background-color: $white-text;
         }
     }
 }

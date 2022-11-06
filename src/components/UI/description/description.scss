@@ -20,4 +20,18 @@
     &__left{
         text-align: left;
     }
+    &__left-wh{
+        text-align: left;
+        color: $white-text;
+    }
+    &__big{
+        font-size: 25px;
+        line-height: 34px;
+        text-align: left;
+    }
+    &__try{
+        font-size: 21px;
+        line-height: 28px;
+        color: $white-text;
+    }
 }

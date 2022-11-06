@@ -1,0 +1,19 @@
+@import '../../style/variables.scss';
+
+.develop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: $padding 0;
+    gap: 100px;
+    &__text{
+        max-width: 550px;
+    }
+    &__button{
+        display: flex;
+        gap: 20px;
+        padding: 20px 0;
+    }
+}

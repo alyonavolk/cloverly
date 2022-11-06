@@ -1,0 +1,50 @@
+@import '../../style/variables.scss';
+
+.partner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: $text-button-wh;
+    align-items: center;
+    &__info{
+        max-width: 700px;
+        &_begin{
+            font-size: 21px;
+            line-height: 30px;
+            padding-top: 10px;
+            color: $blue-color-wh;
+            &-cl{
+                color: $blue-color;
+            }
+        }
+        &_link{
+            font-size: 15px;
+            line-height: 20px;
+            cursor: pointer;
+            padding-top: 20px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    &__arrow{
+        padding-top: 40px;
+        font-size: 52px;
+        line-height: 52px;
+        color: $main-color;
+    }
+    &__other{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 40px 0;
+        gap: 20px;
+        p {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}

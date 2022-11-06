@@ -23,4 +23,17 @@
     &__left{
         text-align: left;
     }
+    &__small{
+        font-size: 32px;
+        line-height: 43px;
+    }
+    &__left-wh{
+        text-align: left;
+        color: $white-text;
+    }
+    &__try{
+        font-size: 36px;
+        line-height: 48px;
+        color: $white-text;
+    }
 }
