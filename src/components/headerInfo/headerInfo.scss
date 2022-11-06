@@ -9,10 +9,10 @@
 .header-info{
     padding: 100px 0;
     color: $white-text;
-    max-width: 1205px;
-    margin-left: auto;
     &__block{
         @include flex();
+        max-width: 1255px;
+        margin-left: auto;
     }
     &__text{
         max-width: 550px;
@@ -22,10 +22,30 @@
         margin-top: 45px;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     &__img{
-        @include flex();
-
+        max-width: 700px;
+        max-height: 800px;
+        position: relative;
+        display: flex;
+        position: relative;
+        left: -5%;
+        &_left{
+            &_down{
+                position: relative;
+                top: -10%;
+                left: 8%;
+            }
+        }
+        &_right{
+            position: relative;
+            left: -12%;
+            &_down{
+                position: relative;
+                top: -7%;
+            }
+        }
     }
     &__comp{
         @include flex();
@@ -33,5 +53,6 @@
         max-width: 1100px;
         justify-content: space-around;
         padding: 10px 0;
+        margin: 5% auto 0;
     }
 }

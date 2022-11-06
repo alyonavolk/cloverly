@@ -1,0 +1,20 @@
+@import '../../style/variables.scss';
+
+.map{
+    padding: $padding 0;
+    &__text{
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    &__button{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin: 4% 0 6% 0;
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+}

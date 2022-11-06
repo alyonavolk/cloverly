@@ -6,5 +6,18 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    color: $white-text;
+    color: $text-button-wh;
+    text-align: center;
+    &__white{
+        color: $white-text;
+        text-align: left;
+    }
+    &__item{
+        font-size: 15px;
+        line-height: 22px;
+        text-align: left;
+    }
+    &__left{
+        text-align: left;
+    }
 }

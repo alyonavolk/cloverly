@@ -3,6 +3,7 @@
 .header{
     &__container{
         background-color: $main-color;
+        border-bottom: 1px ridge black;
     }
     max-width: 1050px;
     margin: 0 auto;

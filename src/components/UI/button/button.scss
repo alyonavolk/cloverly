@@ -20,7 +20,8 @@
         }
     }
     &__white{
-        padding: 15px 90px;
+        padding: 15px 0;
+        min-width: 250px;
         color: $text-button-wh;
         &:hover{
             color: $white-text;
@@ -30,11 +31,47 @@
     &__black{
         background-color: $button-bl;
         color: $white-text;
-        padding: 15px 90px;
+        padding: 15px 0;
+        min-width: 250px;
         &:hover{
             background-color: $white-text;
             color: $text-button-wh;
         }
     }
-
+    &__black-gr{
+        background-color: $button-bl;
+        color: $white-text;
+        padding: 15px 0;
+        min-width: 250px;
+        &:hover{
+            background-color: $main-color;
+        }
+    }
+    &__green-bl{
+        background-color: $main-color;
+        color: $white-text;
+        padding: 15px 0;
+        min-width: 250px;
+        &:hover{
+            background-color: $button-bl;
+        }
+    }
+    &__transparent{
+        border: 1px solid $main-color;
+        padding: 15px 0;
+        min-width: 250px;
+        &:hover{
+            background-color: $main-color;
+            color: $white-text;
+        }
+    }
+    &__transp-sm{
+        border: 1px solid $main-color;
+        padding: 7px 40px;
+        background-color: transparent;
+        &:hover{
+            background-color: $main-color;
+            color: $white-text;
+        }
+    }
 }
