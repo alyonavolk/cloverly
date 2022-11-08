@@ -21,4 +21,21 @@
             margin-bottom: 50px;
         }
     }
+
+    
+    @media (max-width: 768px){
+        padding: 100px 5%;
+    }
+    @media (max-width: 375px){
+        &__text{
+            max-width: 320px;
+            margin: 0 auto;
+        }
+    }
+        &__items{
+            max-width: 320px;
+            li {
+                margin-bottom: 30px;
+            }
+        }
 }

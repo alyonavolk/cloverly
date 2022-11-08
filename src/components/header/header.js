@@ -1,9 +1,12 @@
 import './header.scss';
+import { useState } from 'react';
 import logo from '../../resources/img/logo.svg';
 import { NavLink } from 'react-router-dom';
 import Button from '../UI/button/button';
 
 const Header = () => {
+    const [menu, setMenu] = useState(false);
+
     return (
         <div className='header__container'>
             <div className='header'>
@@ -11,7 +14,10 @@ const Header = () => {
                     <div className='header__logo'>
                         <img className='' src={logo} alt=''/>
                     </div>
-                    <div className='header__link'>
+                    <div className={menu ? "header__menu header__menu_active" : "header__menu"} onClick={() => setMenu(!menu)}>
+                        <span></span>
+                    </div>
+                    <div className={menu ? "header__link header__link_active" : "header__link header__link_hide"} onClick={() => setMenu(!menu)}>
                         <ul>
                             <li><NavLink exact activeStyle={{'color': '#192F44'}} to="/">
                                 Product

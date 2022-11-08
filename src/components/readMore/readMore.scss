@@ -11,4 +11,7 @@
     &__button{
         padding-top: 60px;
     }
+    @media (max-width: 768px){
+        padding: 100px 5%;
+    }
 }

@@ -10,11 +10,25 @@
         display: flex;
         gap: 30px;
         justify-content: center;
+        flex-wrap: wrap;
         margin: 4% 0 6% 0;
     }
     &__img{
         display: flex;
         justify-content: center;
         margin-bottom: 5%;
+        img{
+            max-width: 95%;
+        }
+    }
+    
+    @media (max-width: 768px){
+        padding: 100px 5%;
+    }
+    @media (max-width: 375px){
+        &__text{
+            max-width: 320px;
+            margin: 0 auto;
+        }
     }
 }

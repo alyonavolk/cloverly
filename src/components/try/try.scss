@@ -17,4 +17,11 @@
     &__button{
         padding-top: 40px;
     }
+    
+    @media (max-width: 768px){
+        padding: 100px 5%;
+        &__ln-gr{
+            padding: 40px 10px;
+        }
+    }
 }

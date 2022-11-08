@@ -21,4 +21,8 @@
     &__left{
         text-align: start;
     }
+    @media (max-width: 375px){
+        font-size: 13px;
+        line-height: 13px;
+    }
 }

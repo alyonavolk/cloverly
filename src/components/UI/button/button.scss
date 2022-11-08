@@ -103,4 +103,78 @@
             background-color: $white-text;
         }
     }
+    
+    @media (max-width: 576px){
+        &__white{
+            padding: 10px 0;
+            max-width: 220px;
+        }
+        &__black{
+            padding: 10px 0;
+            max-width: 220px;
+        }
+        &__black-gr{
+            padding: 10px 0;
+            max-width: 220px;
+        }
+        &__green-bl{
+            padding: 10px 0;
+            max-width: 220px;
+        }
+        &__transparent{
+            padding: 10px 0;
+            max-width: 220px;
+        }
+        &__transp-sm{
+            padding: 7px 30px;
+        }
+        &__green-wh{
+            padding: 10px 0;
+            max-width: 220px;
+        }
+        &__white-gr{
+            padding: 10px 0;
+            max-width: 220px;
+        }
+        &__footer{
+            max-width: 220px;
+        }
+    }
+
+    @media (max-width: 375px){
+        &__white{
+            padding: 15px 0;
+            max-width: 180px;
+        }
+        &__black{
+            padding: 15px 0;
+            max-width: 180px;
+        }
+        &__black-gr{
+            padding: 15px 0;
+            max-width: 180px;
+        }
+        &__green-bl{
+            padding: 15px 0;
+            max-width: 180px;
+        }
+        &__transparent{
+            padding: 15px 0;
+            max-width: 180px;
+        }
+        &__transp-sm{
+            padding: 7px 40px;
+        }
+        &__green-wh{
+            padding: 15px 0;
+            max-width: 180px;
+        }
+        &__white-gr{
+            padding: 15px 0;
+            max-width: 180px;
+        }
+        &__footer{
+            max-width: 180px;
+        }
+    }
 }

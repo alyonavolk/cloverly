@@ -34,4 +34,41 @@
         line-height: 28px;
         color: $white-text;
     }
+
+    @media (max-width: 768px){
+        font-size: 17px;
+        line-height: 24px;
+        &__big{
+            font-size: 23px;
+            line-height: 30px;
+        }
+        &__try{
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+    @media (max-width: 576px){
+        font-size: 16px;
+        line-height: 22px;
+        &__big{
+            font-size: 20px;
+            line-height: 28px;
+        }
+        &__try{
+            font-size: 19px;
+            line-height: 24px;
+        }
+    }
+    @media (max-width: 375px){
+        font-size: 14px;
+        line-height: 20px;
+        &__big{
+            font-size: 18px;
+            line-height: 26px;
+        }
+        &__try{
+            font-size: 17px;
+            line-height: 22px;
+        }
+    }
 }

@@ -53,4 +53,18 @@
     &__date{
         padding: 50px 0;
     }
+    @media (max-width: 768px){
+        padding: 0 5%;
+        &__logo, &__date{
+            padding: 30px 0;
+        }
+        &__link{
+            gap: 30px;
+        }
+        ul{
+            &:last-child{
+                padding-top: 10px;
+            }
+        }
+    }
 }
