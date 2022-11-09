@@ -54,6 +54,12 @@
     &__menu{
         display: none;
     }
+    @media (max-width: 1024px) {
+        &__container{
+            width: 1024px;
+            padding: 0 5%;
+        }
+    }
     @media (max-width: 768px) {
         &__container{
             max-width: 768px;
@@ -104,8 +110,8 @@
         &__link{
             ul{
                 position: fixed;
-                top: 90px;
-                left: 10%;
+                top: 70px;
+                left: 15%;
                 right: auto;
                 width: 200px;
                 height: 250px;

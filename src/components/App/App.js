@@ -14,8 +14,8 @@ import Footer from '../footer/footer';
 function App() {
   return (
     <Router>
-    <Header />
       <div className="app">
+        <Header />
           <Switch>
             <Route exact path="/">
               <div className='app__header'>

@@ -1,7 +1,7 @@
 @import '../../style/variables.scss';
 
 .app{
-    max-width: 1440px;
+    max-width: 100%;
     background-color: $back-beige;
     &__header{
         background-color: $main-color;

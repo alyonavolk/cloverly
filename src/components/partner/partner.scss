@@ -53,7 +53,8 @@
         }
     }
     
-    @media (max-width: 768px){
+    @media (max-width: 1024px){
+        justify-content: center;
         padding-bottom: 60px;
         &__info{
             margin-top: 20px;
